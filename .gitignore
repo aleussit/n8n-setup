@@ -1,0 +1,15 @@
+# Environment and secrets
+.env
+.env.*
+!.env.easypanel.example
+
+# Local n8n data
+.n8n/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Logs and temp
+*.log
+*.tmp
