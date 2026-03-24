@@ -20,7 +20,7 @@ services:
       N8N_RUNNERS_BROKER_PORT: "5679"
       N8N_RUNNERS_STDLIB_ALLOW: "*"
       N8N_RUNNERS_EXTERNAL_ALLOW: "*"
-      N8N_HOST: "${N8N_HOST:-n8n.iaoptimize.com.br}"
+      N8N_HOST: "0.0.0.0"
       N8N_PORT: "5678"
       N8N_PROTOCOL: "https"
       WEBHOOK_URL: "https://${N8N_HOST:-n8n.iaoptimize.com.br}/"
